@@ -28,7 +28,7 @@ WHERE ShippedDate is NULL
 
 --4. Скольких покупателей обслужил продавец, лидирующий по общему количеству заказов?
 
---4.1 Вариант 1 (Возможно так длать неправильно, поэтому сделал и вариант 2)
+--4.1 Вариант 1 (Возможно так дeлать неправильно, поэтому сделал и вариант 2)
 SELECT t.c FROM 
 (SELECT TOP (1) EmployeeID, COUNT(DISTINCT CustomerID) c, COUNT(OrderID) o
 FROM dbo.Orders

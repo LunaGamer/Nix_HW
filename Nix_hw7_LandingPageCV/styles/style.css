@@ -1,0 +1,11 @@
+li.collection-item, li.collection-header{
+	border: 1px solid black;
+}
+
+ul.collection{
+	border-bottom: 1px solid black;
+}
+
+div.divider{
+	border: 1px solid red;
+}

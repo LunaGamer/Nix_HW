@@ -1,11 +1,53 @@
-li.collection-item, li.collection-header{
-	border: 1px solid black;
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&display=swap');
+
+body.container {
+	background-image:url("../background/double-bubble-dark.png");
 }
 
-ul.collection{
-	border-bottom: 1px solid black;
+.hdgroup {
+	font-family:'Goblin One', cursive;
 }
 
-div.divider{
-	border: 1px solid red;
+#About {
+	background-image: url("../background/about.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+	background-position: left;
+}
+
+#Education {
+	background-image: url("../background/education.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+	background-position: center;
+}
+
+#Hard_Skills {
+	background-image: url("../background/code.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+	background-position: center;
+}
+
+#Soft_Skills {
+	background-image: url("../background/laptop.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+	background-position: center;
+}
+
+.darkback{
+  background: url(../background/darkback.png);
+}
+
+.lightback{
+  background: url(../background/lightback.png);
+}
+
+li.collection-item, li.collection-header, ul.collection, div.divider, div.card {
+	border: 1px solid white;
 }
